@@ -108,7 +108,7 @@ public class Localizacion {
 		int dia, mes, anio;
 		String[] valores = fecha.split("\\/");
 		dia = Integer.parseInt(valores[0]);
-		mes = Integer.parseInt(valores[1]#);
+		mes = Integer.parseInt(valores[1]);
 		anio = Integer.parseInt(valores[2]);
 		int minuto, segundo;
 		valores = hora.split("\\:");
